@@ -102,9 +102,10 @@ const sortedList = () => {
     // store values in models
     let models = inventory[i]['car_model'];
     // sort models and push to new new array;
-    carModels.sort().push(models);
+    carModels.push(models);
   }
-  console.log(carModels);
+  // console.log(carModels.sort((a, b) => a.localeCompare(b)));
+  console.log(carModels.sort());
 }
 
 sortedList();
