@@ -1,3 +1,5 @@
+// Complete
+
 // Let's get some practice writing a few objects for a new group of interns at a small business.
 
 // ==== Challenge 1: Writing Objects ==== 

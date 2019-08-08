@@ -1,3 +1,5 @@
+// Complete
+
 // Take the commented ES5 syntax and convert it to ES6 arrow Syntax
 
 // let myFunction = function () {
