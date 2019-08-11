@@ -1,3 +1,5 @@
+// Complete
+
 // To help us use arrays with real world problems we are going to simulate a used car dealer that has 50 cars in their inventory.
 
 // The car dealer has all of their inventory housed in the array seen below.  Scroll down past the data to find out how you can 
@@ -100,9 +102,10 @@ const sortedList = () => {
     // store values in models
     let models = inventory[i]['car_model'];
     // sort models and push to new new array;
-    carModels.sort().push(models);
+    carModels.push(models);
   }
-  console.log(carModels);
+  // console.log(carModels.sort((a, b) => a.localeCompare(b)));
+  console.log(carModels.sort());
 }
 
 sortedList();
